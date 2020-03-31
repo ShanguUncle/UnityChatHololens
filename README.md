@@ -20,12 +20,12 @@ https://docs.microsoft.com/en-us/windows/mixed-reality/unity-development-overvie
 https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html
 
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h1.png)
+![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h4.png)
 
 【**Hololens1 setting**】
 
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h2.png)
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h3.png)
-![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h4.png)
 
 【**Hololens2 setting**】
 
