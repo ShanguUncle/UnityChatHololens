@@ -25,11 +25,11 @@ https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStart
 【**Hololens1 setting**】
 
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h2.png)
-![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h3.png)
 
 【**Hololens2 setting**】
 
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/v2.1.png)
+![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h3.png)
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/v2.2.png)
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/untitled.png)
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/untitled2.png)
