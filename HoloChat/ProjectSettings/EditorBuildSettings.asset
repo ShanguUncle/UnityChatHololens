@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UnityChatDemo/Scenes/UnityChatDemo_HoloLens.unity
+    path: Assets/UnityChatDemo(Can be deleted)/Scenes/UnityChatDemo_HoloLens.unity
     guid: 8015c52284ea87948951dad3fa5f498e
   m_configObjects: {}
