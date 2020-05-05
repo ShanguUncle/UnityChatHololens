@@ -337,7 +337,7 @@ PlayerSettings:
     m_Automatic: 1
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
-    m_Enabled: 0
+    m_Enabled: 1
     m_Devices:
     - Oculus
     - OpenVR
@@ -600,14 +600,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Template3D
+  metroPackageName: HoloChat
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: SG
   metroCertificateIssuer: SG
   metroCertificateNotAfter: 809b13bc5b26d701
-  metroApplicationDescription: Template_3D
+  metroApplicationDescription: HoloChat
   wsaImages: {}
   metroTileShortName: HoloChat
   metroTileShowName: 0
@@ -664,7 +664,7 @@ PlayerSettings:
       WebCam: True
   metroTargetDeviceFamilies:
     Desktop: False
-    Holographic: True
+    Holographic: False
     IoT: False
     IoTHeadless: False
     Mobile: False
