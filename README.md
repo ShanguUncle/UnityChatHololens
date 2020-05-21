@@ -12,17 +12,17 @@ UnityChatHololens(**unity2019.30f3,MixedRealityToolkit-Unity-2.3.0**)
 由该工程二次开发的RemoteMarkDemo演示视频，之后根据反馈会出详细的视频教程以供参考
 https://www.bilibili.com/video/BV1Jg4y1B7Ts/
 
-**unitychatsdk
+**unitychatsdk**
 
 https://github.com/ShanguUncle/UnityChatSDK
 
-**mrtk-unity2018
+**mrtk-unity2018**
 https://github.com/ShanguUncle/UnityChatHololens/tree/master/MRTK/Unity2018(Only%20H1)
 
-**mirt-unity2019
+**mirt-unity2019**
 https://github.com/ShanguUncle/UnityChatHololens/tree/master/MRTK/Unity2019(H1%26H2)
 
-**official resource：
+**official resource**：
 
 https://github.com/Microsoft/MixedRealityToolkit-Unity/releases
 
