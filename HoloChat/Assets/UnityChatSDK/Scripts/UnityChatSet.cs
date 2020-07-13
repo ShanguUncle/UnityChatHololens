@@ -8,8 +8,12 @@ using UnityEngine.UI;
 /// </summary>
 public class UnityChatSet: MonoBehaviour {
 
-    //声音音量衰减参数
+    //声音音量播放大小
     public  float AudioVolume= 1f;
+	
+	//麦克风音量大小
+	public  float MicVolumeScale= 1f;
+	   
     public VideoType VideoType = VideoType.DeviceCamera;
 
     //音视频分辨率
@@ -50,6 +54,7 @@ public class UnityChatSet: MonoBehaviour {
     void InitAudio() 
     {
         UnityChatSDK.Instance.AudioVolume=AudioVolume;
+		UnityChatSDK.Instance.MicVolumeScale= MicVolumeScale;
         UnityChatSDK.Instance.AudioThreshold= 0.002f;
         UnityChatSDK.Instance.AudioFrequency = 8000;
         UnityChatSDK.Instance.AudioSample = 2;
