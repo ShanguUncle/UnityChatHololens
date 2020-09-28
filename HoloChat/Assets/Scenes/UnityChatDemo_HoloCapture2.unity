@@ -6800,7 +6800,7 @@ MonoBehaviour:
   VideoType: 2
   VideoResolution: 1
   VideoQuality: 3
-  Framerate: 12
+  Framerate: 15
   EchoCancellation: 0
   EnableDetection: 0
   EnableSync: 0
@@ -6821,6 +6821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NetType: 0
+  ChunkLength: 50000
 --- !u!1 &1875980133
 GameObject:
   m_ObjectHideFlags: 0
@@ -7555,9 +7556,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 181ad11e12e9de04f94b05a39e6aa4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SipServerIP: 192.168.3.3
+  SipServerIP: 192.168.3.39
   SipServerPort: 6650
-  ChatStreamServerIP: 192.168.3.3
+  ChatStreamServerIP: 192.168.3.39
   ChatStreamServerPort: 6680
   NetPanl: {fileID: 47060843}
   SipServerIPInputField: {fileID: 819478864}

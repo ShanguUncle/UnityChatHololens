@@ -84,9 +84,6 @@ public class UnityChatSet: MonoBehaviour {
             case VideoType.UnityCamera:
                 SetVideoCaptureType(VideoType.UnityCamera, CaptureCamera);
                 break;
-            case VideoType.Screen:
-                SetVideoCaptureType(VideoType.Screen, CaptureCamera);
-                break;
             case VideoType.CustomTexture:
                 SetVideoCaptureType(VideoType.CustomTexture, null);
                 break;
@@ -136,7 +133,7 @@ public class UnityChatSet: MonoBehaviour {
     bool videoEnable; 
     public void SetVideoEnable()
     {
-        print("audioEnable:" + videoEnable);
+        print("videoEnable:" + videoEnable);
         UnityChatSDK.Instance.SetVideoEnable(videoEnable);
         videoEnable = !videoEnable;
     }
@@ -165,9 +162,5 @@ public class UnityChatSet: MonoBehaviour {
     public void SetUnityCam()
     {
         SetVideoCaptureType(VideoType.UnityCamera, CaptureCamera);
-    }
-    public void SetScreen()
-    {
-        SetVideoCaptureType(VideoType.Screen, CaptureCamera);
     }
 }
