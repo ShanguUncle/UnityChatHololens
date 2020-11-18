@@ -46,3 +46,5 @@ https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStart
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/untitled2.png)
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/untitled3.png)
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/untitled4.jpg)
+![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/untitled5.jpg)
+![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/untitled6.jpg)
