@@ -1,20 +1,20 @@
 # UnityChatHololens
 UnityChatHololens(**unity2019.4,MixedRealityToolkit-Unity-2.5.1**)
 
-该项目使用了MRTK及UnityChatSDK实现了HoloLens与其他平台音视频通讯，可以获取HoloLens的全息混合画面，
-可以获取HoloLens的相机空间矩阵数据，通过该数据可以实现微软官方软件Dynamics 365 Remote Assist的远程标注功能。
+HoloLens video call example.
 
-获取HoloLens全息视频：
+This project comes from
+
+**UnityChatSDK**
+
+https://github.com/ShanguUncle/UnityChatSDK
+
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h5.png)
 
-技术交流群：211031265
+QQ群：211031265
 
 https://www.bilibili.com/video/BV1Jg4y1B7Ts/
 https://www.bilibili.com/video/BV1VK411V74p
-
-**unitychatsdk**
-
-https://github.com/ShanguUncle/UnityChatSDK
 
 **mrtk-unity2018**
 https://github.com/ShanguUncle/UnityChatHololens/tree/master/MRTK/Unity2018(Only%20H1)
