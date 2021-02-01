@@ -21,12 +21,12 @@ MonoBehaviour:
     priority: 0
     runtimePlatform: 8
     settingsProfile: {fileID: 11400000, guid: e9e645b0ba83f8f40aafbf0aa5f01b2e, type: 2}
-  nearClipPlaneOpaqueDisplay: 0.1
-  farClipPlaneOpaqueDisplay: 1000
+  nearClipPlaneOpaqueDisplay: 0.01
+  farClipPlaneOpaqueDisplay: 100
   cameraClearFlagsOpaqueDisplay: 1
   backgroundColorOpaqueDisplay: {r: 0, g: 0, b: 0, a: 1}
   opaqueQualityLevel: 1
-  nearClipPlaneTransparentDisplay: 0.1
+  nearClipPlaneTransparentDisplay: 0.01
   farClipPlaneTransparentDisplay: 50
   cameraClearFlagsTransparentDisplay: 2
   backgroundColorTransparentDisplay: {r: 0, g: 0, b: 0, a: 0}
