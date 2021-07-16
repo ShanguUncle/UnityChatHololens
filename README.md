@@ -1,5 +1,5 @@
 # UnityChatHololens
-UnityChatHololens(**unity2019.4,MixedRealityToolkit-Unity-2.5.1**)
+UnityChatHololens(**unity2019.4LTS,MixedRealityToolkit-Unity-2.6.2**)
 
 HoloLens video call example.
 
@@ -9,20 +9,17 @@ This project comes from
 
 https://github.com/ShanguUncle/UnityChatSDK
 
+Please update vs2019 to the latest version！
+
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/h5.png)
 
-QQ群：211031265
+QQ group：211031265
 
 https://www.bilibili.com/video/BV1Jg4y1B7Ts/
 https://www.bilibili.com/video/BV1VK411V74p
 
-**mrtk-unity2018**
-https://github.com/ShanguUncle/UnityChatHololens/tree/master/MRTK/Unity2018(Only%20H1)
 
-**mirt-unity2019**
-https://github.com/ShanguUncle/UnityChatHololens/tree/master/MRTK/Unity2019(H1%26H2)
-
-**official resource**：
+**microsoft official resource**：
 
 https://github.com/Microsoft/MixedRealityToolkit-Unity/releases
 
