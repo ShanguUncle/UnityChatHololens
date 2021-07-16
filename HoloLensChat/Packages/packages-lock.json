@@ -1,48 +1,48 @@
 {
   "dependencies": {
     "com.microsoft.mixedreality.toolkit.examples": {
-      "version": "2.5.3",
+      "version": "2.6.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.microsoft.mixedreality.toolkit.foundation": "2.5.3",
-        "com.microsoft.mixedreality.toolkit.extensions": "2.5.3"
+        "com.microsoft.mixedreality.toolkit.foundation": "2.6.2",
+        "com.microsoft.mixedreality.toolkit.extensions": "2.6.2"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.microsoft.mixedreality.toolkit.extensions": {
-      "version": "2.5.3",
+      "version": "2.6.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.microsoft.mixedreality.toolkit.foundation": "2.5.3"
+        "com.microsoft.mixedreality.toolkit.foundation": "2.6.2"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.microsoft.mixedreality.toolkit.foundation": {
-      "version": "2.5.3",
+      "version": "2.6.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.microsoft.mixedreality.toolkit.standardassets": "2.5.3"
+        "com.microsoft.mixedreality.toolkit.standardassets": "2.6.2"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.microsoft.mixedreality.toolkit.standardassets": {
-      "version": "2.5.3",
+      "version": "2.6.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.textmeshpro": "2.1.1"
+        "com.unity.textmeshpro": "2.1.4"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.microsoft.mixedreality.toolkit.tools": {
-      "version": "2.5.3",
+      "version": "2.6.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.microsoft.mixedreality.toolkit.foundation": "2.5.3"
+        "com.microsoft.mixedreality.toolkit.foundation": "2.6.2"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
@@ -57,15 +57,6 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
-    },
-    "com.unity.ads": {
-      "version": "3.4.9",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.cn"
     },
     "com.unity.analytics": {
       "version": "3.3.5",
@@ -115,15 +106,6 @@
       },
       "url": "https://packages.unity.cn"
     },
-    "com.unity.purchasing": {
-      "version": "2.1.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.cn"
-    },
     "com.unity.test-framework": {
       "version": "1.1.20",
       "depth": 0,
@@ -136,7 +118,7 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.textmeshpro": {
-      "version": "2.1.1",
+      "version": "2.1.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
