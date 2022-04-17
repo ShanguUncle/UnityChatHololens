@@ -1,35 +1,35 @@
 {
   "dependencies": {
     "com.microsoft.mixedreality.toolkit.examples": {
-      "version": "2.6.2",
+      "version": "2.7.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.microsoft.mixedreality.toolkit.foundation": "2.6.2",
-        "com.microsoft.mixedreality.toolkit.extensions": "2.6.2"
+        "com.microsoft.mixedreality.toolkit.foundation": "2.7.3",
+        "com.microsoft.mixedreality.toolkit.extensions": "2.7.3"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.microsoft.mixedreality.toolkit.extensions": {
-      "version": "2.6.2",
+      "version": "2.7.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.microsoft.mixedreality.toolkit.foundation": "2.6.2"
+        "com.microsoft.mixedreality.toolkit.foundation": "2.7.3"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.microsoft.mixedreality.toolkit.foundation": {
-      "version": "2.6.2",
+      "version": "2.7.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.microsoft.mixedreality.toolkit.standardassets": "2.6.2"
+        "com.microsoft.mixedreality.toolkit.standardassets": "2.7.3"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.microsoft.mixedreality.toolkit.standardassets": {
-      "version": "2.6.2",
+      "version": "2.7.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -38,11 +38,11 @@
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.microsoft.mixedreality.toolkit.tools": {
-      "version": "2.6.2",
+      "version": "2.7.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.microsoft.mixedreality.toolkit.foundation": "2.6.2"
+        "com.microsoft.mixedreality.toolkit.foundation": "2.7.3"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
@@ -58,56 +58,47 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.analytics": {
-      "version": "3.3.5",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.cn"
-    },
     "com.unity.collab-proxy": {
-      "version": "1.2.16",
+      "version": "1.14.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.cn"
+      "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.cn"
+      "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "1.1.4",
+      "version": "1.2.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.1"
       },
-      "url": "https://packages.unity.cn"
+      "url": "https://packages.unity.com"
     },
-    "com.unity.ide.vscode": {
-      "version": "1.2.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.cn"
-    },
-    "com.unity.multiplayer-hlapi": {
-      "version": "1.0.6",
+    "com.unity.ide.visualstudio": {
+      "version": "2.0.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "nuget.mono-cecil": "0.1.6-preview"
+        "com.unity.test-framework": "1.1.9"
       },
-      "url": "https://packages.unity.cn"
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.vscode": {
+      "version": "1.2.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.20",
+      "version": "1.1.30",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -115,7 +106,7 @@
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
-      "url": "https://packages.unity.cn"
+      "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
       "version": "2.1.6",
@@ -124,14 +115,19 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0"
       },
-      "url": "https://packages.unity.cn"
+      "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.2.16",
+      "version": "1.2.18",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.cn"
+      "dependencies": {
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
       "version": "1.0.0",
@@ -142,13 +138,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.cn"
-    },
     "com.unity.xr.windowsmr.metro": {
       "version": "4.2.3",
       "depth": 0,
@@ -156,14 +145,7 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0"
       },
-      "url": "https://packages.unity.cn"
-    },
-    "nuget.mono-cecil": {
-      "version": "0.1.6-preview",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.cn"
+      "url": "https://packages.unity.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

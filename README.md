@@ -1,5 +1,5 @@
-# UnityChatHololens
-UnityChatHololens(**unity2019.4LTS,MixedRealityToolkit-Unity-2.6.2**)
+# UnityChatHololens v8.2
+UnityChatHololens(**unity2019.4LTS,MixedRealityToolkit-Unity-2.7.3**)
 
 HoloLens video call example.
 
