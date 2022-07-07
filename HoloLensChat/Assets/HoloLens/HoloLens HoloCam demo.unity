@@ -8177,7 +8177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24287cd4550476f46835d9abba3689e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  holoResolution: 0
+  holoResolution: 1
   holoFrame: 0
   EnableHolograms: 1
   Opacity: 0.9
@@ -18547,7 +18547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UnityChatSDK
+  m_text: UnityChatSDK-HoloCam
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18635,8 +18635,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.32693636, y: -0.116740145}
-  m_SizeDelta: {x: 25.730179, y: 4.3451223}
+  m_AnchoredPosition: {x: -0.2019, y: -0.116740145}
+  m_SizeDelta: {x: 46.541122, y: 4.3451223}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7779420039133118759
 GameObject:

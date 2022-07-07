@@ -650,7 +650,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: SG
   metroCertificateIssuer: SG
-  metroCertificateNotAfter: 00440777cc72d901
+  metroCertificateNotAfter: 00c72ceec8b0d901
   metroApplicationDescription: UnityChatDemo
   wsaImages:
     65636: 

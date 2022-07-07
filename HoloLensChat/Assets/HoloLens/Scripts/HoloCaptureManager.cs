@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-
 public class HoloCaptureManager : MonoBehaviour
 {
 
@@ -24,6 +23,7 @@ public class HoloCaptureManager : MonoBehaviour
     }
     public enum HoloResolution
     {
+        Holo_640x360,
         Holo_896x504,
         Holo_1280x720,
     }
@@ -48,11 +48,10 @@ public class HoloCaptureManager : MonoBehaviour
     {
         switch (holoResolution)
         {
+            case HoloResolution.Holo_640x360:
             case HoloResolution.Holo_896x504:
-                resolution = new HoloCapture.Resolution(896, 504);
-                break;
             case HoloResolution.Holo_1280x720:
-                resolution = new HoloCapture.Resolution(1280, 720);
+                resolution = new HoloCapture.Resolution(896, 504);//HoloCam Type only supports this resolution
                 break;
         }
         int frame;
@@ -71,15 +70,20 @@ public class HoloCaptureManager : MonoBehaviour
 #if UNITY_WSA || UNITY_EDITOR
 
 #if UNITY_2020_1_OR_NEWER
-        //Note:
-        //please add those packages on PackageManager
-        //1.XR Plugin Management 4.x
-        //2.Windows XR Plugin 4.x
+        //Note1:
+        //Enable the code below if you use Windows XR Plugin
+
+        //HoloCaptureHelper.Instance.Init(resolution, frame, true, EnableHolograms, Opacity, false,
+        //UnityEngine.XR.WindowsMR.WindowsMREnvironment.OriginSpatialCoordinateSystem, OnFrameSampleCallback);
+
+        //Note2
+        //Enable the code below if you use OpenXR Plugin
         HoloCaptureHelper.Instance.Init(resolution, frame, true, EnableHolograms, Opacity, false,
-UnityEngine.XR.WindowsMR.WindowsMREnvironment.OriginSpatialCoordinateSystem, OnFrameSampleCallback);
+        UnityEngine.XR.XRDevice.GetNativePtr(), OnFrameSampleCallback);
+
 #else
         HoloCaptureHelper.Instance.Init(resolution, frame, true, EnableHolograms, Opacity, false,
-UnityEngine.XR.WSA.WorldManager.GetNativeISpatialCoordinateSystemPtr(), OnFrameSampleCallback);
+        UnityEngine.XR.WSA.WorldManager.GetNativeISpatialCoordinateSystemPtr(), OnFrameSampleCallback);
 #endif
 
 #endif
@@ -105,9 +109,9 @@ UnityEngine.XR.WSA.WorldManager.GetNativeISpatialCoordinateSystemPtr(), OnFrameS
         {
             HoloCaptureHelper.Instance.StartCapture();
         }
-        catch(Exception e)
+        catch (Exception e)
         {
-            Debug.Log("Holo StartCapture error:"+e.Message);
+            Debug.Log("Holo StartCapture error:" + e.Message);
         }
     }
 
