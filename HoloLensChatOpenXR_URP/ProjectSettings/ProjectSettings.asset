@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: a874f41b0dff687498e9fc212cc69716, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
@@ -293,7 +293,14 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 100
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 78bbf2ab56d690249a2a11d198e94fde, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
@@ -755,9 +762,14 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: SG
   metroCertificateIssuer: SG
-  metroCertificateNotAfter: 002e2081d6b0d901
+  metroCertificateNotAfter: 00fbf33675e7da01
   metroApplicationDescription: HoloLensChatOpenXR_URP
-  wsaImages: {}
+  wsaImages:
+    65636: Assets/UnityChatSDK/Icons/StoreLogo.png
+    131272: Assets/UnityChatSDK/Icons/SplashScreen.scale-200.png
+    2031640: Assets/UnityChatSDK/Icons/Square44x44Logo.targetsize-24_altform-unplated.png
+    2031816: Assets/UnityChatSDK/Icons/Square44x44Logo.scale-200.png
+    2162888: Assets/UnityChatSDK/Icons/Square150x150Logo.scale-200.png
   metroTileShortName: HoloLensChatOpenXR_URP
   metroTileShowName: 0
   metroMediumTileShowName: 0

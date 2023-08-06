@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UnityChat/HoloLens/HoloLens HoloCam demo.unity
+    path: Assets/HoloLens/HoloLens HoloCam demo.unity
     guid: c92c77b85aa53364d82ba9e71c744ce6
   - enabled: 0
-    path: Assets/UnityChat/HoloLens/HoloLens WebCam demo.unity
+    path: Assets/HoloLens/HoloLens WebCam demo.unity
     guid: e33ea2e7af536344eb66e231ba229eef
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: e2bd87db1b384074fa56c89afd3cb7d2, type: 2}
