@@ -56,5 +56,5 @@ https://www.bilibili.com/video/BV19v4y1U7xz
 ![Image text](https://github.com/ShanguUncle/UnityChatHololens/blob/master/Screenshot/rm02.jpg)
 
 ## Pay for RemoteMark
-<a href="https://www.paypal.com/cgi-bin/webscr?&cmd=_xclick&business=1786570525@qq.com&currency_code=USD&amount=1580&item_name=RemoteMarkProject(1580$~~1760$~~)" target="_blank"><img src="https://github.com/ShanguUncle/UnityChatSDK/blob/master/Readme/Images/SDK/pay.gif" border="0" name="submit" alt="Click to pay with PayPal!"></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?&cmd=_xclick&business=1786570525@qq.com&currency_code=USD&amount=1580&item_name=RemoteMarkProject" target="_blank"><img src="https://github.com/ShanguUncle/UnityChatSDK/blob/master/Readme/Images/SDK/pay.gif" border="0" name="submit" alt="Click to pay with PayPal!"></a>
 
