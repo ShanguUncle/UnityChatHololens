@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: SG
-  productName: HoloLensChatOpenXR_URP
+  productName: HoloLensChatOpenXR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -158,8 +158,9 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 8828480528486160939, guid: caddc42f9a0707e43b506ed9a5f0fb07, type: 2}
-  - {fileID: -1016850955515774501, guid: d3a4527de49dafc4ebbcb68e2c978b69, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -762,15 +763,15 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: SG
   metroCertificateIssuer: SG
-  metroCertificateNotAfter: 00fbf33675e7da01
-  metroApplicationDescription: HoloLensChatOpenXR_URP
+  metroCertificateNotAfter: 00470e54e6dddb01
+  metroApplicationDescription: HoloLensChatOpenXR
   wsaImages:
     65636: Assets/UnityChatSDK/Icons/StoreLogo.png
     131272: Assets/UnityChatSDK/Icons/SplashScreen.scale-200.png
     2031640: Assets/UnityChatSDK/Icons/Square44x44Logo.targetsize-24_altform-unplated.png
     2031816: Assets/UnityChatSDK/Icons/Square44x44Logo.scale-200.png
     2162888: Assets/UnityChatSDK/Icons/Square150x150Logo.scale-200.png
-  metroTileShortName: HoloLensChatOpenXR_URP
+  metroTileShortName: HoloLensChatOpenXR
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
